@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCarActivity">
+
+    <!-- Поле для ввода производителя -->
+    <EditText
+        android:id="@+id/editManufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manufacturer" />
+
+    <!-- Поле для ввода модели -->
+    <EditText
+        android:id="@+id/editModel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/editManufacturer"
+        android:layout_marginTop="8dp"
+        android:hint="Model" />
+
+    <!-- Поле для ввода цены -->
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editModel"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Price"
+        android:minHeight="56dp" />
+
+    <!-- Поле для ввода года -->
+    <EditText
+        android:id="@+id/editYear"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/editPrice"
+        android:layout_marginTop="8dp"
+        android:hint="Year"
+        android:inputType="number" />
+
+    <!-- Кнопка сохранения -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editYear"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Save" />
+</RelativeLayout>

@@ -1,0 +1,91 @@
+[
+  {
+    "manufacturer": "Toyota",
+    "model": "Camry",
+    "price": 25000.0,
+    "imageUrl": "https://s.auto.drom.ru/i24255/c/photos/generations/500x_toyota_camry_g12891.jpg?1000441",
+    "country_of_origin": "Japan",
+    "year": 2021
+
+  },
+  {
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "price": 20000.0,
+    "imageUrl": "https://s.auto.drom.ru/i24292/c/photos/generations/500x_toyota_corolla_g5440.jpg?1196177",
+    "country_of_origin": "Japan",
+    "year": 2018
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "Civic",
+    "price": 22000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Japan",
+    "year": 2019
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "Accord",
+    "price": 24000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Japan",
+    "year": 2022
+  },
+  {
+    "manufacturer": "Honda",
+    "model": "Odyssey",
+    "price": 19000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Japan",
+    "year": 2012
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "price": 35000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "USA",
+    "year": 2018
+  },
+  {
+    "manufacturer": "Ford",
+    "model": "Mondeo",
+    "price": 10000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "USA",
+    "year": 2002
+  },
+  {
+    "manufacturer": "Audi",
+    "model": "RS6",
+    "price": 70000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Germany",
+    "year": 2021
+  },
+  {
+    "manufacturer": "Mercedes",
+    "model": "e63",
+    "price": 76000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Germany",
+    "year": 2020
+  },
+  {
+    "manufacturer": "BMW",
+    "model": "X5",
+    "price": 100000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Germany",
+    "year": 2020
+  },
+  {
+    "manufacturer": "KIA",
+    "model": "K5",
+    "price": 30000.0,
+    "imageUrl": "https://example.com/images/toyota_corolla.jpg",
+    "country_of_origin": "Korea",
+    "year": 2022
+  }
+]

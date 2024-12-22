@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/placeholder"
+        android:contentDescription="@string/car_image" />
+
+    <!--производитель -->
+    <TextView
+        android:id="@+id/textManufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- модель -->
+    <TextView
+        android:id="@+id/textModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textManufacturer"
+        android:textSize="16sp" />
+
+    <!--цена -->
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textModel"
+        android:textSize="16sp" />
+
+    <!-- Год -->
+    <TextView
+        android:id="@+id/textYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPrice"
+        android:textSize="16sp" />
+</RelativeLayout>

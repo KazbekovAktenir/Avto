@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AddCarActivity">
+
+<EditText
+    android:id="@+id/editTextManufacturer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Manufacturer"/>
+
+<EditText
+    android:id="@+id/editTextModel"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_below="@id/editTextManufacturer"
+    android:layout_marginTop="8dp"
+    android:hint="Model"/>
+
+<EditText
+    android:id="@+id/editTextPrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextModel"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:inputType="numberDecimal"
+    android:hint="Price"
+    android:minHeight="56dp"/>
+
+<EditText
+    android:id="@+id/editTextYear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_below="@id/editTextYear"
+    android:hint="Year"
+    android:inputType="number" />
+
+
+
+    <Button
+    android:id="@+id/buttonAddCar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextPrice"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:text="Add Car"/>
+</RelativeLayout>

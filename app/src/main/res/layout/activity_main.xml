@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/manufacturerSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:id="@+id/modelSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manufacturerSpinner"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort by Price"
+        android:layout_below="@id/modelSpinner"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter by Manufacturer"
+        android:layout_below="@id/sortButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/filterButton"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"/>
+</RelativeLayout>
